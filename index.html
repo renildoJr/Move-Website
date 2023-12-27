@@ -8,93 +8,109 @@
     <title>Move | Home</title>
 </head>
 <body>
-    <div class="wrapper">
+    
         <!-- Header  -->
         <header class="page-header">
-            <nav class="navbar">
-                <strong><a class="logo heading-1" href="/">Move</a></strong>
-                <ul class="menu">
-                    <li><a class="menu__link dropdown" href="#">Home</a></li>
-                    <li><a class="menu__link dropdown" href="#">Pages</a></li>
-                    <li><a class="menu__link dropdown" href="#">Blog</a></li>
-                    <li><a class="menu__link dropdown" href="#">Portfolio</a></li>
-                </ul>
-                <button class="btn btn--primary btn-small">Get Started</button>
-            </nav>
+            <div class="container">
+                <nav class="navbar">
+                    <strong><a class="logo heading-1" href="/">Move</a></strong>
+                    <ul class="menu">
+                        <li><a class="menu__link dropdown" href="#">Home</a></li>
+                        <li><a class="menu__link dropdown" href="#">Pages</a></li>
+                        <li><a class="menu__link dropdown" href="#">Blog</a></li>
+                        <li><a class="menu__link dropdown" href="#">Portfolio</a></li>
+                    </ul>
+                    <button class="btn btn--primary btn-small">Get Started</button>
+                </nav>
+            </div>
         </header>
         <!-- Header end -->
     
         <!-- Main -->
         <main class="page-main">
-            <section class="page-section hero">
+            <section class= "hero">
                 <div class="container">
-                    <h1 class="text-display-1">A messenger that is<br>ahead of its time</h1>
-                    <p>Try the new Move messenger! It will definitely impress you with its amazing features<br>that will make it easier for you to communicate between your friends.</p>
-                    <div class="hero__btn-container">
-                        <button class="btn btn--primary btn-med">Get Started</button>
-                        <button class="btn btn-med">View more</button>
-
-                    </div>
-                </div>
-                <div class="hero__image-container">
-                    <img src="source/images/Messnger.png" alt="Message">
+                    <header class="hero__header">
+                        <h1 class="text-display-1">A messenger that is<br>ahead of its time</h1>
+                        <p>Try the new Move messenger! It will definitely impress you with its amazing features<br>that will make it easier for you to communicate between your friends.</p>
+                        <div class="hero__btn-container">
+                            <button class="btn btn--primary btn-med">Get Started</button>
+                            <button class="btn btn-med">View more</button>
+                        </div>
+                    </header>
+                    <div class="hero__image-container"></div>
                 </div>
             </section>
     
             <section class="page-section">
-                <h6>Companies that have already tried our messenger</h6>
-                <img src="source/images/logo-client_avengoldline.svg" alt="Goldline" class="logo-client">
-                <img src="source/images/logo-client_aven.svg" alt="Aven" class="logo-client">
-                <img src="source/images/logo-client_avenkanba.svg" alt="Kanba" class="logo-client">
-                <img src="source/images/logo-client_avenkyan.svg" alt="Kyan" class="logo-client">
-                <img src="source/images/logo-client_avenspotify.svg" alt="Spotfy" class="logo-client">
-            </section>
-    
-            <div class="page-section alternative-bg col-2">
-                <div class="card-list col-2">
-                    <div class="card">
-                        <img src="source/images/card-icon__mail.svg" alt="End-to-End">
-                        <h4>End-to-End</h4>
-                        <p class="small-text">Our messenger uses only proven technologies. There fore, no one will read your messages.</p>
-                    </div>
-                    <div class="card">
-                        <img src="source/images/card-icon_voice.svg" alt="Voice Message">
-                        <h4>Voice Message</h4>
-                        <p class="small-text">When you don't have time to write a text, send your companion a voice message.</p>
-                    </div>
-                    <div class="card">
-                        <img src="source/images/card-icon_paper.svg" alt="News Widget">
-                        <h4>News Widget</h4>
-                        <p class="small-text">All the news of the world is at hand, our messenger has a pre-installed news widget.</p>
-                    </div>
-                    <div class="card">
-                        <img src="source/images/card-icon_fire.svg" alt="Tags">
-                        <h4>Tags</h4>
-                        <p class="small-text">Place messages in existing tags or create new ones. Using tags makes interaction easier.</p>
+                <div class="container">
+                    <h6>Companies that have already tried our messenger</h6>
+                    <div class="list">
+                        <img src="source/images/logo-client_avengoldline.svg" alt="Goldline" class="logo-client">
+                        <img src="source/images/logo-client_aven.svg" alt="Aven" class="logo-client">
+                        <img src="source/images/logo-client_avenkanba.svg" alt="Kanba" class="logo-client">
+                        <img src="source/images/logo-client_avenkyan.svg" alt="Kyan" class="logo-client">
+                        <img src="source/images/logo-client_avenspotify.svg" alt="Spotfy" class="logo-client">
                     </div>
                 </div>
+            </section>
     
-                <section>
-                    <h2 class="text-display-2">Try the familiar functions in the new execution</h2>
-                    <p>The very functions that help you in everyday life are already built into our messenger and are not just built in but invented anew.</p>
-                    <button class="btn btn--primary btn-med">Get Started</button>
-                </section>
-            </div>
-    
-            <div class="page-section">
-                <div class="col-2">
-                    <section>
-                        <h2 class="text-display-2">Find out what Move Messenger is capable of</h2>
-                        <p>Watch a short video that tells you about the useful features of our mobile app. Everything you need is always at hand with Move.</p>
-                        <button class="btn btn-med">View More</button>
+            <div class="page-section alternative-bg">
+                <div class="container col-2">
+                    <div class="card-list col-2">
+                        <div class="card">
+                            <span class="circle circle-small" style="background: var(--additional-color1);">
+                                <img src="source/images/card-icon__mail.svg" alt="End-to-End">
+                            </span>
+                            <h4>End-to-End</h4>
+                            <p class="small-text">Our messenger uses only proven technologies. There fore, no one will read your messages.</p>
+                        </div>
+                        <div class="card">
+                            <span class="circle circle-small" style="background: var(--additional-color2);">
+                                <img src="source/images/card-icon_voice.svg" alt="Voice Message">
+                            </span>
+                            <h4>Voice Message</h4>
+                            <p class="small-text">When you don't have time to write a text, send your companion a voice message.</p>
+                        </div>
+                        <div class="card">
+                            <span class="circle circle-small" style="background: var(--additional-color3);">
+                                <img src="source/images/card-icon_paper.svg" alt="News Widget">
+                            </span>
+                            <h4>News Widget</h4>
+                            <p class="small-text">All the news of the world is at hand, our messenger has a pre-installed news widget.</p>
+                        </div>
+                        <div class="card">
+                            <span class="circle circle-small" style="background: var(--additional-color4);">
+                                <img src="source/images/card-icon_fire.svg" alt="Tags">
+                            </span>
+                            <h4>Tags</h4>
+                            <p class="small-text">Place messages in existing tags or create new ones. Using tags makes interaction easier.</p>
+                        </div>
+                    </div>    
+                    <section class="side-content">
+                        <h2 class="text-display-2">Try the familiar functions in the new execution</h2>
+                        <p>The very functions that help you in everyday life are already built into our messenger and are not just built in but invented anew.</p>
+                        <button class="btn btn--primary btn-med">Get Started</button>
                     </section>
-                    <div class="image-container">
-                        <img src="source/images/section_image01.png" alt="Man using computer.">
-                        <div class="notification notification--left">
-                            <img src="source/images/not-icon1.svg" alt="smile">
-                            <div class="info">
-                                <span class="small-text">Notification</span>
-                                <p><strong>Try the messenger features!</strong></p>
+                </div>
+            </div>
+
+            <div class="page-section">
+                <div class="container">
+                    <div class="col-2">
+                        <section class="side-content">
+                            <h2 class="text-display-2">Find out what Move Messenger is capable of</h2>
+                            <p>Watch a short video that tells you about the useful features of our mobile app. Everything you need is always at hand with Move.</p>
+                            <button class="btn btn-med">View More</button>
+                        </section>
+                        <div class="image-container">
+                            <img src="source/images/section_image01.png" alt="Man using computer.">
+                            <div class="notification notification--left">
+                                <img src="source/images/not-icon1.svg" alt="smile">
+                                <div class="info">
+                                    <span class="small-text">Notification</span>
+                                    <p><strong>Try the messenger features!</strong></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -102,56 +118,60 @@
             </div>
 
             <div class="page-section">
-                <div class="col-2">
-                    <div class="image-container">
-                        <img src="source/images/section_image01.png" alt="Man using computer.">
-                        <div class="notification notification--right">
-                            <img src="source/images/not-icon2.svg" alt="paper">
-                            <div class="info">
-                                <span class="small-text">Notification</span>
-                                <p><strong>Send a message to Ilya Zinchenko</strong></p>
+                <div class="container">
+                    <div class="col-2">
+                        <div class="image-container">
+                            <img src="source/images/section_image01.png" alt="Man using computer.">
+                            <div class="notification notification--right">
+                                <img src="source/images/not-icon2.svg" alt="paper">
+                                <div class="info">
+                                    <span class="small-text">Notification</span>
+                                    <p><strong>Send a message to Ilya Zinchenko</strong></p>
+                                </div>
                             </div>
+                            <section class="side-content">
+                                <h2 class="text-display-2">Move will remind you when to complete a task</h2>
+                                <p>You can use our messenger to set reminders for tasks that you want to complete on time. And you can choose the importance of tasks using tags.</p>
+                                <button class="btn btn--primary btn-med">View More</button>
+                            </section>
                         </div>
-                        <section>
-                            <h2 class="text-display-2">Move will remind you when to complete a task</h2>
-                            <p>You can use our messenger to set reminders for tasks that you want to complete on time. And you can choose the importance of tasks using tags.</p>
-                            <button class="btn btn--primary btn-med">View More</button>
-                        </section>
                     </div>
                 </div>
             </div>
 
            <section class="page-section alternative-bg">
-                <h2 class="text-display-2">Customers are loving our Move messenger</h2>
-                <div class="testmonials">
-                    <div class="testmonial">
-                        <img class="testmonial__avatar-image avatar-small" src="source/images/testmonial01.png" alt="Alpamys Moldashev">
-                        <div class="testmonial__info">
-                            <strong>Alpamys Moldashev</strong>
-                            <span class="small-text">Graphic Designer</span>
-                            <p>With the Move messenger I can correspond with clients from all over the world and never forget about important meetings.</p>
-                            <img src="source/images/rate-stars.svg" alt="rate stars">
+                <div class="container">
+                    <h2 class="text-display-2">Customers are loving our Move messenger</h2>
+                    <div class="testmonials">
+                        <div class="testmonial">
+                            <img class="testmonial__circle-image circle-small" src="source/images/testmonial01.png" alt="Alpamys Moldashev">
+                            <div class="testmonial__info">
+                                <strong>Alpamys Moldashev</strong>
+                                <span class="small-text">Graphic Designer</span>
+                                <p>With the Move messenger I can correspond with clients from all over the world and never forget about important meetings.</p>
+                                <img src="source/images/rate-stars.svg" alt="rate stars">
+                            </div>
                         </div>
-                    </div>
-                    <div class="testmonial">
-                        <img class="testmonial__avatar-image avatar-small" src="source/images/testmonial02.png" alt="Bogdan Krivenchenko">
-                        <div class="testmonial__info">
-                            <strong>Bogdan Krivenchenko</strong>
-                            <span class="small-text">UI/UX Designer</span>
-                            <p>Move messenger helps me a lot in performing normal tasks with reminders. It looks great and is easy to use!</p>
-                            <img src="source/images/rate-stars.svg" alt="rate stars">
+                        <div class="testmonial">
+                            <img class="testmonial__circle-image circle-small" src="source/images/testmonial02.png" alt="Bogdan Krivenchenko">
+                            <div class="testmonial__info">
+                                <strong>Bogdan Krivenchenko</strong>
+                                <span class="small-text">UI/UX Designer</span>
+                                <p>Move messenger helps me a lot in performing normal tasks with reminders. It looks great and is easy to use!</p>
+                                <img src="source/images/rate-stars.svg" alt="rate stars">
+                            </div>
                         </div>
-                    </div>
-                    <div class="testmonial">
-                        <img class="testmonial__avatar-image avatar-small" src="source/images/testmonial03.png" alt="Sergey Filatov">
-                        <div class="testmonial__info">
-                            <strong>Sergey Filatov</strong>
-                            <span class="small-text">CEO at Mindset</span>
-                            <p>Move messenger is just a bomb! On it I have the opportunity to lead my own design community and share up to date information.</p>
-                            <img src="source/images/rate-stars.svg" alt="rate stars">
+                        <div class="testmonial">
+                            <img class="testmonial__circle-image circle-small" src="source/images/testmonial03.png" alt="Sergey Filatov">
+                            <div class="testmonial__info">
+                                <strong>Sergey Filatov</strong>
+                                <span class="small-text">CEO at Mindset</span>
+                                <p>Move messenger is just a bomb! On it I have the opportunity to lead my own design community and share up to date information.</p>
+                                <img src="source/images/rate-stars.svg" alt="rate stars">
+                            </div>
                         </div>
+                        <button class="btn btn-text">See all testmonials img <img src="source/images/icon-rightarrow.svg" alt="Testmonials"></button>
                     </div>
-                    <button class="btn btn-text">See all testmonials img <img src="source/images/icon-rightarrow.svg" alt="Testmonials"></button>
                 </div>
             </section>
         </main>
@@ -159,11 +179,13 @@
 
         <!-- Footer -->
         <footer class="page-footer">
-            <section class="adv-area">
-                <img src="source/images/adv.svg" alt="Download app">
-                <h3 class="heading-1">Download our app to your smartphone!</h3>
-                <button class="btn btn--primary btn-med">Download App</button>
-            </section>
+            <div class="container">
+                <section class="adv-area">
+                    <img src="source/images/adv.svg" alt="Download app">
+                    <h3 class="heading-1">Download our app to your smartphone!</h3>
+                    <button class="btn btn--primary btn-med">Download App</button>
+                </section>
+            </div>
 
             <div class="container" id="footer-container">
                 <div class="column">
